@@ -1,0 +1,26 @@
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+div{
+    text-align: center;
+    border: 1px solid gray;
+    width: 40%;
+    padding: 2%;
+}
+
+img{
+    width: 60%;
+}
+
+span{
+    color: red;
+    display: block;
+    margin-bottom: 1%;
+}
+
+.cart{
+    margin: 2% auto;
+}

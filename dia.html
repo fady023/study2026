@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>مثال على Dialog</title>
+</head>
+<body>
+  <!-- زرار يفتح الفورم -->
+  <button onclick="document.getElementById('loginDialog').showModal()">تسجيل الدخول</button>
+
+  <!-- نافذة الحوار -->
+  <dialog id="loginDialog">
+    <form method="dialog">
+      <h2>تسجيل الدخول</h2>
+
+      <label>
+        اسم المستخدم:
+        <input type="text" required>
+      </label>
+      <br><br>
+
+      <label>
+        كلمة المرور:
+        <input type="password" required>
+      </label>
+      <br><br>
+
+      <!-- أزرار -->
+      <menu>
+        <button value="cancel">إلغاء</button>
+        <button value="confirm">تسجيل</button>
+      </menu>
+    </form>
+  </dialog>
+</body>
+</html>

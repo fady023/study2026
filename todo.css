@@ -1,0 +1,35 @@
+
+.container{text-align: center;}
+form{
+  text-align: center;padding: 30px;
+}
+
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blanchedalmond;
+    width: 60%;text-align: center;
+    margin: 1% auto;
+}
+
+form input[type=text]{
+    padding: 1%;
+    border: 2px solid black;
+    font-size: 22px;
+}
+input[type=submit]{
+    padding: 1%;
+    background-color: bisque;
+    border-color: black;
+    font-size: 22px;
+}
+p{
+    padding: 1%;
+font-weight: bold;
+    font-size: 21px;
+}
+i{
+    
+    cursor: pointer;
+}
